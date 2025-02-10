@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.5vw 1vw;
+}
+.profile{
+    border-radius: 50%;
+    width: 2rem;
+    height: 3vh;
+}
+.search, .menu{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.logoimg{
+    width: 2.5rem;
+}
+.home{
+    width: 2rem;
+}
+.noti{
+    width: 1.5rem;
+    opacity: 0.7;
+}
+.searchinp{
+    width: 20rem;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    outline: none;
+}
+.searchimg{
+    width: 1.5rem;
+    opacity: 0.7;
+}
+.search2{
+    display: flex;
+    align-items: center;
+    color: gray;
+}
